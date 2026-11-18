@@ -1,5 +1,7 @@
 # Rainfall forecasting: Changi, Singapore (PRAICP-1004)
 
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?logo=jupyter&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?logo=scikitlearn&logoColor=white) ![XGBoost](https://img.shields.io/badge/XGBoost-EB5A0C) ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?logo=tensorflow&logoColor=white) ![statsmodels](https://img.shields.io/badge/statsmodels-4051B5) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white) ![MLflow](https://img.shields.io/badge/MLflow-0194E2?logo=mlflow&logoColor=white) ![Tests](https://img.shields.io/badge/tests-pytest-0A9EDC?logo=pytest&logoColor=white) ![Last commit](https://img.shields.io/github/last-commit/rc-mathew/rainfall-forecasting)
+
 Forecast **monthly total rainfall** and the **highest single-day rainfall in the month** for the next 12 months
 (July 2020 – June 2021), from NEA data for Changi Climate Station, Jan 1982 – Jun 2020 (462 months, no gaps).
 

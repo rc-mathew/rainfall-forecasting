@@ -28,6 +28,18 @@ large: 80% intervals are about 255 mm wide for monthly totals.
 
 Forecasts are median-like "typical month" values; they sum to about 1,875 mm, below the mean annual 2,118 mm.
 
+## Experiment tracking (MLflow)
+`python scripts/train.py` logs one run to the experiment `rainfall-forecasting` (SQLite store `mlflow.db`): parameters,
+backtest metrics, the saved model and the forecast CSV. Logged metrics from the final run (12-month-ahead rolling
+backtest, 108 out-of-sample months, MAE in mm):
+
+| Metric | Ensemble | Monthly median baseline |
+|---|---|---|
+| `total_mae` | 63.72 | 63.89 |
+| `max_daily_mae` | 19.01 | 19.29 |
+
+Open the UI with `mlflow ui --backend-store-uri sqlite:///mlflow.db`. The run history itself is not committed.
+
 ## Layout
 ```
 PRAICP-1004_Rainfall_Forecasting.ipynb   full analysis (EDA, tests, ARIMA/SARIMA, ML, LSTM, ensemble, forecast)

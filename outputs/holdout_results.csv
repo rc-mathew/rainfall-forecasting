@@ -1,0 +1,8 @@
+target,model,holdout MAE,holdout RMSE
+total_rainfall,Ensemble,86.76821617768508,96.818086437053
+total_rainfall,Monthly median,84.94166666666666,97.04942898681406
+total_rainfall,Seasonal naive,87.97499999999998,112.53642743574189
+maximum_rainfall_in_a_day,Ensemble,19.947855376858055,24.34510697166388
+maximum_rainfall_in_a_day,Monthly median,17.241666666666664,22.998786199855566
+maximum_rainfall_in_a_day,Random Forest,21.849163893195975,26.349112223701045
+maximum_rainfall_in_a_day,Seasonal naive,22.46666666666667,27.296275692238062

@@ -1,0 +1,16 @@
+numpy
+pandas
+scipy
+matplotlib
+seaborn
+statsmodels
+scikit-learn
+xgboost
+tensorflow-cpu
+jupyter
+nbconvert
+mlflow
+fastapi
+uvicorn[standard]
+httpx
+pytest
